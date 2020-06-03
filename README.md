@@ -10,8 +10,8 @@ A stochastic hybrid model for DNA re-replication, tailored for the complete fiss
 
 ## How to run model simulations
 
-To perform a single DNA re-replication simulation, call `rereplicationalg` with the necessary impute arguments `copies`(genome amplification parameter C), `redistr` (binary variable indicating which model variant to use (1: LF, 0: UF)).
-The example below simulates the LF model variant until an amplification level of 4C is reached:
+To perform a single DNA re-replication simulation, call `rereplicationalg` with the necessary impute arguments `copies`(genome amplification parameter C), `redistr` (binary variable indicating which model variant to use `(1: LF, 0: UF))`.
+The example below simulates the LF model variant until an amplification level of `4C` is reached:
 ```
 copies=4;
 redistr=1;
