@@ -16,7 +16,6 @@ year = {2020},
 ```
 
 
-
 ## Prerequisites
 
 * MATLAB R2011 or newer
@@ -24,7 +23,10 @@ year = {2020},
 
 ## How to run model simulations
 
-To perform a single DNA re-replication simulation, call `rereplicationalg` with the necessary impute arguments `copies`(genome amplification parameter C), `redistr` (binary variable indicating if the LF (1) or the UF (0) model variant is simulated).
+To perform a single DNA re-replication simulation, call `rereplicationalg` with the necessary impute arguments:
+- `copies`: genome amplification parameter *C*, 
+- `redistr`: binary variable indicating if the *LF* (1) or the *UF* (0) model variant is simulated.
+
 The example below simulates the LF model variant until an amplification level of `4C` is reached:
 ```
 copies=4;
@@ -34,4 +36,4 @@ redistr=1;
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+This project is free software, licensed under the terms of the MIT license.
