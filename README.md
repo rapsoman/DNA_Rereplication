@@ -4,10 +4,12 @@ This repository contains the source code of our [preprint](https://www.biorxiv.o
 
 ``` 
 @article{rapsomaniki_silico_2020,
-title = {In silico analysis of {DNA} re-replication across a complete genome reveals cell-to-cell heterogeneity and genome plasticity},
+title = {In silico analysis of {DNA} re-replication across a complete genome reveals cell-to-cell 
+heterogeneity and genome plasticity},
 doi = {10.1101/2020.03.30.016576},
 journal = {bioRxiv},
-author = {Rapsomaniki, Maria Anna and Maxouri, Stella and Garrastacho, Manuel Ramirez and Nathanailidou, Patroula and Giakoumakis, Nickolaos Nikiforos and Taraviras, Stavros and Lygeros, John and Lygerou, Zoi},
+author = {Rapsomaniki, Maria Anna and Maxouri, Stella and Garrastacho, Manuel Ramirez and Nathanailidou, 
+Patroula and Giakoumakis, Nickolaos Nikiforos and Taraviras, Stavros and Lygeros, John and Lygerou, Zoi},
 month = mar,
 year = {2020},
 }
