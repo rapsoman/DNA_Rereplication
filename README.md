@@ -1,4 +1,4 @@
-# DNA Re-replication model
+# DNA re-replication model
  
 A stochastic hybrid model for DNA re-replication, tailored for the complete fission yeast genome
 
