@@ -40,6 +40,7 @@ DNAcontent=0;
 endtimeall=0; %time an event will happen
 evolution=[];
 
+disp('Running re-replication model...')
 while DNAcontent/GenomeLength<(copies-1)
     DNAcontentnew=0;
     [forks, oris]=size(Tfire);
