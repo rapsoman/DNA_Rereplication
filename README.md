@@ -34,6 +34,9 @@ redistr=1;
 [Tfire,TPR,TSR,TSL,OS,evolution,lambdacurrent]=rereplicationalg(copies,redistr);
 ```
 
+## How to reproduce the preprint figures
+In the MATLAB scripts `plots_paper.m` and `plots_supplementary.m` you can find the code needed to recreate all figures from our preprint and supplementary material. Please make sure to modify the path (first line of each cell) to match your local path where the simulation results were stored. 
+
 ## License
 
 This project is free software, licensed under the terms of the MIT license.
