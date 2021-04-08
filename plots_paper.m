@@ -264,7 +264,7 @@ ylabel('Probability density')
 
 %%
 %Figure 5B
-scatter(eff_all,mean(nof_all),15,(std(noc_all)./mean(noc_all)));
+scatter(eff_all,mean(nof_all),15,(std(nof_all)./mean(nof_all)));
 h2=text(60,8,'\rho = 0.4');
 set(h2,'fontsize',12)
 h=gca;
